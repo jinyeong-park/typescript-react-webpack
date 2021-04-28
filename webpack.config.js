@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // add script tag inside dist/index.html body section  after build command
 
 module.exports = {
-    entry: "./src/index.ts",
+    entry: "./src/index.tsx",
     resolve: {
         extensions: ['.js', ',ts', '.tsx'],
     },
